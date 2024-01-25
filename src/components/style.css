@@ -1,0 +1,38 @@
+.phone-input-container {
+    margin-bottom: 10px;
+  }
+  
+  .phone-input-wrapper {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 5px;
+    height: 50%
+  }
+  
+  .phone-input-wrapper span {
+    margin-right: 5px;
+  }
+  .divider {
+    height: 100%;
+    border-left: 1px solid #ccc;
+    margin: 0 5px;
+  }
+  .desktopView{
+    display: block;
+  }
+  .mobileView{
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .desktopView{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+      }
+  }
+  
