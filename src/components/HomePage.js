@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import banner from '../img/Banner.png';
 import ToStart from '../img/Tostart2.png';
 import Logo from '../img/logo.png';
-import mobileBanner from '../img/mobileBanner3.png'
+import mobileBanner from '../img/mobileBanner1.png'
 import './style.css';
 
 function HomePage() {
