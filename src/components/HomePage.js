@@ -99,7 +99,7 @@ function HomePage() {
                     {/* Your content goes here */}
                 </div>
                 <div style={{ justifyContent: 'center' }}>
-                    <div className='mx-auto' style={{ width: "60%" }} id="main">
+                    <div className='mx-auto' style={{ width: "60%" }}>
                         <div style={{ textAlign: "center" }}>
                             <h1>FAQ<span style={{ color: "#8546BD" }}>s</span></h1>
                         </div>
