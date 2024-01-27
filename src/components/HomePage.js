@@ -10,6 +10,7 @@ import twiter from '../img/twiter.png';
 import playStore from '../img/playstore.png'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
     const [phoneNumber, setPhoneNumber] = useState('');
@@ -206,14 +207,14 @@ function HomePage() {
                                     <h6 className='text-white pl-2'>Contact</h6>
                                 </div>
                                 <div className='mx-auto mt-3' style={{ display: "flex" }}>
-                                    <img className='text-white pr-5 pl-1' src={facebook} alt="Description of the image" style={{ height: "30px" }} />
-                                    <img className='text-white pr-5 pl-4' src={teligram} alt="Description of the image" style={{ height: "30px" }} />
-                                    <img className='text-white pr-5 pl-5' src={instagram} alt="Description of the image" style={{ height: "30px" }} />
-                                    <img className='text-white pl-5' src={twiter} alt="Description of the image" style={{ height: "30px" }} />
+                                    <Link to="https://www.facebook.com/profile.php?id=61555697623765"><img className='text-white pr-5 pl-1' src={facebook} alt="Description of the image" style={{ height: "30px" }} /></Link>
+                                    <Link to="https://t.me/funzy11"><img className='text-white pr-5 pl-4' src={teligram} alt="Description of the image" style={{ height: "30px" }} /></Link>
+                                    <Link to="https://www.instagram.com/funzzy11/"><img className='text-white pr-5 pl-5' src={instagram} alt="Description of the image" style={{ height: "30px" }} /></Link>
+                                    <Link to="https://twitter.com/funzy1111"><img className='text-white pl-5' src={twiter} alt="Description of the image" style={{ height: "30px" }} /></Link>
                                 </div>
                             </div>
                             <div className='col-3'>
-                                <p className='text-white' style={{ fontSize: "12px" }}>+918105184507</p>
+                                <p className='text-white' style={{ fontSize: "12px" }}>+91 9740812670</p>
                                 <p className='text-white' style={{ fontSize: "12px" }}>funzzy11@gmail.com</p>
                             </div>
                         </div>
@@ -239,7 +240,7 @@ function HomePage() {
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
-                        height:"390vh"
+                        height: "390vh"
                         // width: '100vh',
                     }}
                 >
@@ -349,10 +350,11 @@ function HomePage() {
                     <img src={Logo} alt="Description of the image" className='mt-4' style={{ height: "60px" }} />
                     <p style={{ fontSize: "12px", color: "white" }} className='mt-2'>Fantasy gaming experience to all.</p>
                     <div className='mt-4' style={{ display: "flex", justifyContent: "space-between", margin: "0px 15%" }}>
-                        <img src={facebook} alt="Description of the image" style={{ height: "30px" }} />
-                        <img src={teligram} alt="Description of the image" style={{ height: "30px" }} />
-                        <img src={instagram} alt="Description of the image" style={{ height: "30px" }} />
-                        <img src={twiter} alt="Description of the image" style={{ height: "30px" }} />
+                        <Link to="https://www.facebook.com/profile.php?id=61555697623765"><img src={facebook} alt="Description of the image" style={{ height: "30px" }} /></Link>
+                        <Link to="https://t.me/funzy11"><img src={teligram} alt="Description of the image" style={{ height: "30px" }} /></Link>
+                        <Link to="https://www.instagram.com/funzzy11/"><img src={instagram} alt="Description of the image" style={{ height: "30px" }} /></Link>
+                        <Link to="https://twitter.com/funzy1111"><img src={twiter} alt="Description of the image" style={{ height: "30px" }} /></Link>
+
                     </div>
                 </div>
                 <div className='pt-4' style={{ backgroundColor: "black", textAlign: "center" }}>
