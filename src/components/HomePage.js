@@ -8,12 +8,8 @@ import teligram from '../img/teligram.png';
 import instagram from '../img/instagram.png';
 import twiter from '../img/twiter.png';
 import playStore from '../img/playstore.png'
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './style.css';
-import FAQAccordion from './FAQAccordion';
 
 function HomePage() {
     const [phoneNumber, setPhoneNumber] = useState('');
@@ -99,10 +95,8 @@ function HomePage() {
                     {/* <div className='mx-auto' style={{ paddingLeft: "48%", paddingTop: "82%" }}>
                         <img src={playStore} alt="Description of the image" style={{ height: "50px", textAlign: "center" }} />
                     </div> */}
-
-                    {/* Your content goes here */}
                 </div>
-                <div style={{ justifyContent: 'center' }}>
+                <div className='mb-5' style={{ justifyContent: 'center' }}>
                     <div className='mx-auto' style={{ width: "60%" }}>
                         <div style={{ textAlign: "center" }}>
                             <h1>FAQ<span style={{ color: "#8546BD" }}>s</span></h1>
@@ -245,7 +239,8 @@ function HomePage() {
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
-                        width: '100vh',
+                        height:"390vh"
+                        // width: '100vh',
                     }}
                 >
                     <div style={{ marginLeft: "32%", paddingTop: "130%" }}>
@@ -260,60 +255,60 @@ function HomePage() {
                         <div style={{ textAlign: "center" }}>
                             <h1>FAQ<span style={{ color: "#8546BD" }}>s</span></h1>
                         </div>
-                        <div class="accordion" id="accordionExample">
-                            <div class="card mt-4">
-                                <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <span class="title">What is Fantasy Sports? </span>
-                                    <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                        <div className="accordion" id="accordionExample">
+                            <div className="card mt-4">
+                                <div className="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span className="title">What is Fantasy Sports? </span>
+                                    <span className="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
                                 <div id="collapseOne" class="collapse" data-parent="#accordionExample">
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mt-3">
-                                <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span class="title">Is it safe to add money to Funzy11?</span>
-                                    <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                            <div className="card mt-3">
+                                <div className="card-header collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span className="title">Is it safe to add money to Funzy11?</span>
+                                    <span className="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
                                 <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         Adding money to your Funzy11 account is both simple and safe. We have many different payment options enabled on Funzy11 to ensure that your personal details are safe with us.
                                         What's more? After you verify your personal details, you can withdraw the money that you win on Funzy11 directly to your bank account
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mt-3">
-                                <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false">
-                                    <span class="title"> How are Funzy11 points calculated?</span>
-                                    <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                            <div className="card mt-3">
+                                <div className="card-header collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false">
+                                    <span className="title"> How are Funzy11 points calculated?</span>
+                                    <span className="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
                                 <div id="collapseThree" class="collapse" data-parent="#accordionExample">
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         Funzy11 points system is calculated on the basis of the performance of the player in an actual match. Check Funzy11 Fantasy Points System for various sports.
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mt-3">
-                                <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false">
-                                    <span class="title">When do I get my winnings?</span>
-                                    <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                            <div className="card mt-3">
+                                <div className="card-header collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false">
+                                    <span className="title">When do I get my winnings?</span>
+                                    <span className="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
                                 <div id="collapseFour" class="collapse" data-parent="#accordionExample">
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         A successfully processed withdrawal request via IMPS should get credited almost instantly or within 3 working days. NEFT should get credited within 3 working days
                                         for more details, see this question posted on our helpdesk.
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mt-3">
-                                <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false">
-                                    <span class="title">How do I use the Funzy11 discount coupon code?</span>
-                                    <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                            <div className="card mt-3">
+                                <div className="card-header collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false">
+                                    <span className="title">How do I use the Funzy11 discount coupon code?</span>
+                                    <span className="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
                                 <div id="collapseFive" class="collapse" data-parent="#accordionExample">
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         Go to ‘Rewards’ at the bottom right corner
                                         Click on ‘My Rewards’ and tap on ‘Have a discount coupon code?’
                                         Enter your code, tap ‘Apply now'
@@ -321,13 +316,13 @@ function HomePage() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mt-3">
-                                <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false">
-                                    <span class="title">How should I download the Funzy11 app?</span>
-                                    <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                            <div className="card mt-3">
+                                <div className="card-header collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false">
+                                    <span className="title">How should I download the Funzy11 app?</span>
+                                    <span className="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
                                 <div id="collapseSix" class="collapse" data-parent="#accordionExample">
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         There are 3 ways in which you can download the Funzy11 app.
                                         Head to www.funzy11.com on your desktop or mobile browser and enter your mobile number to get the download link
                                         If you're an iOS user, you can also search for ‘Funzy11’ in the App Store and download the app
@@ -335,13 +330,13 @@ function HomePage() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mt-3">
-                                <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseSaven" aria-expanded="false">
-                                    <span class="title">What type of contests can I join?</span>
-                                    <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                            <div className="card mt-3">
+                                <div className="card-header collapsed" data-toggle="collapse" data-target="#collapseSaven" aria-expanded="false">
+                                    <span className="title">What type of contests can I join?</span>
+                                    <span className="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
                                 <div id="collapseSaven" class="collapse" data-parent="#accordionExample">
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         Select your favourite sport, click on a match from that sport, create your Funzy11 and join any public, private, head-to-head or mega contests.
                                         You can also choose to join paid contests by paying the contest entry amount or hone your skills by entering practice contests before you compete with others.
                                     </div>

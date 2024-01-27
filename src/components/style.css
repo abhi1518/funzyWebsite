@@ -1,65 +1,71 @@
 .phone-input-container {
-    margin-bottom: 10px;
-  }
-  
-  .phone-input-wrapper {
-    margin-top: 3%;
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    padding: 5px;
-    height: 50%
-  }
-  
-  .phone-input-wrapper span {
-    margin-right: 5px;
-  }
-  .divider {
-    height: 100%;
-    border-left: 1px solid #ccc;
-    margin: 0 5px;
-  }
-  .desktopView{
-    display: block;
-  }
-  .mobileView{
-    display: none;
-  }
-  .desktopView{
-    overflow: hidden; 
-  }
-  .horizantal_line {
-    border: 1px solid white !important;
-    margin: 0px  30px !important ;
-  }
-  .horizantal_line_mobile {
-    border: 1px solid white !important;
-    margin: 0px  0px !important ;
-  }
-  .mobile_banner {
-    height: 350vh;
-  }
-
-  .card-header .title {
-    font-size: 17px;
-    color: #000;
+  margin-bottom: 10px;
 }
+
+.phone-input-wrapper {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 5px;
+  height: 50%
+}
+
+.phone-input-wrapper span {
+  margin-right: 5px;
+}
+
+.divider {
+  height: 100%;
+  border-left: 1px solid #ccc;
+  margin: 0 5px;
+}
+
+.desktopView {
+  display: block;
+  overflow: hidden;
+}
+
+.mobileView {
+  display: none;
+}
+
+.horizantal_line {
+  border: 1px solid white !important;
+  margin: 0px 30px !important;
+}
+
+.horizantal_line_mobile {
+  border: 1px solid white !important;
+  margin: 0px 0px !important;
+}
+
+
+.card-header .title {
+  font-size: 17px;
+  color: #000;
+}
+
 .card-header .accicon {
   float: right;
-  font-size: 20px;  
+  font-size: 20px;
   width: 1.2em;
 }
-.card-header{
+
+.card-header {
   cursor: pointer;
   border-bottom: none;
 }
-.card{
+
+.card {
   border: 1px solid #ddd;
 }
-.card-body{
+
+.card-body {
   border-top: 1px solid #ddd;
 }
+
 .card-header:not(.collapsed) .rotate-icon {
   transform: rotate(180deg);
 }
@@ -68,25 +74,29 @@
   padding-left: 320% !important;
 }
 
-  @media only screen and (max-width: 600px) {
-    .desktopView{
-        display: none;
-    }
-    .mobileView{
-        display: block;
-      }
+.mobile_banner {
+  max-height: 390vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .desktopView {
+    display: none;
   }
 
-  @media only screen and (max-width: 375px) {
-    .mobile_banner {
-      height: 390vh !important;
-    }
+  .mobileView {
+    display: block;
   }
+}
 
-  @media only screen and (max-width: 430px) {
-    .mobile_banner {
-      height: 320vh;
-    }
+@media only screen and (max-width: 375px) {
+  .mobile_banner {
+    max-height: 390vh !important; /* or any other unit you find suitable */
   }
-  
-  
+}
+
+@media only screen and (max-width: 430px) {
+  .mobile_banner {
+    max-height: 320vh; /* or any other unit you find suitable */
+  }
+}

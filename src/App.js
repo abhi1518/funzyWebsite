@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
