@@ -92,9 +92,9 @@ function HomePage() {
                         width: '100%', // Adjust as needed
                     }}
                 >
-                    <div className='mx-auto' style={{ paddingLeft: "48%", paddingTop: "82%" }}>
+                    {/* <div className='mx-auto' style={{ paddingLeft: "48%", paddingTop: "82%" }}>
                         <img src={playStore} alt="Description of the image" style={{ height: "50px", textAlign: "center" }} />
-                    </div>
+                    </div> */}
 
                     {/* Your content goes here */}
                 </div>
@@ -247,9 +247,9 @@ function HomePage() {
                     <div style={{ marginLeft: "32%", paddingTop: "130%" }}>
                         <button className="btn text-white" style={{ backgroundColor: "#8546BD", borderRadius: '38px' }}>Download Now</button>
                     </div>
-                    <div className='mx-auto' style={{ paddingLeft: "30%", paddingTop: "520%" }}>
+                    {/* <div className='mx-auto play_store' style={{ paddingLeft: "30%"}}>
                         <img src={playStore} alt="Description of the image" style={{ height: "50px", textAlign: "center" }} />
-                    </div>
+                    </div> */}
                 </div>
                 <div style={{ justifyContent: 'center' }}>
                     <div className='mx-auto' style={{ width: "80%" }} id="main">

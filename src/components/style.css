@@ -125,6 +125,10 @@
   transform: rotate(180deg);
 }
 
+.play_store {
+  padding-left: 320% !important;
+}
+
   @media only screen and (max-width: 600px) {
     .desktopView{
         display: none;
@@ -145,9 +149,5 @@
       height: 320vh;
     }
   }
-  @media only screen and (max-width: 520px) {
-    .mobile_banner {
-      height: 380vh !important;
-    }
-  }
+  
   
