@@ -8,8 +8,12 @@ import teligram from '../img/teligram.png';
 import instagram from '../img/instagram.png';
 import twiter from '../img/twiter.png';
 import playStore from '../img/playstore.png'
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './style.css';
+import FAQAccordion from './FAQAccordion';
 
 function HomePage() {
     const [phoneNumber, setPhoneNumber] = useState('');
@@ -251,14 +255,14 @@ function HomePage() {
                         <img src={playStore} alt="Description of the image" style={{ height: "50px", textAlign: "center" }} />
                     </div> */}
                 </div>
-                <div style={{ justifyContent: 'center' }}>
-                    <div className='mx-auto' style={{ width: "80%" }} id="main">
+                <div className='mb-5' style={{ justifyContent: 'center' }}>
+                    <div className='mx-auto' style={{ width: "90%" }}>
                         <div style={{ textAlign: "center" }}>
                             <h1>FAQ<span style={{ color: "#8546BD" }}>s</span></h1>
                         </div>
                         <div class="accordion" id="accordionExample">
                             <div class="card mt-4">
-                                <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <span class="title">What is Fantasy Sports? </span>
                                     <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                                 </div>
