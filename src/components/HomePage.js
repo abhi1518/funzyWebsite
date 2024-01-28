@@ -27,7 +27,7 @@ function HomePage() {
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
-                        height: '99vh',
+                        height: '780px',
                         width: '100%' // Adjust as needed
                     }}
                 >
