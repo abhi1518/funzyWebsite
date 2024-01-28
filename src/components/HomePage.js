@@ -234,7 +234,7 @@ function HomePage() {
                 </div>
             </div>
             <div className='mobileView'>
-                <div className='img-fluid mobile_banner'
+                <div className='mobile_banner'
                     style={{
                         backgroundImage: `url(${mobileBanner})`,
                         // width: '100vh',

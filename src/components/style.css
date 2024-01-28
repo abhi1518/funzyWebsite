@@ -79,7 +79,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 390vh !important;
+  max-width: 100%;
+  /* height: auto !important; */
+  /* max-height: 390vh; */
+  height: 3000px;
 }
 
 
@@ -93,23 +96,39 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
   .mobile_banner {
-    max-height: 390vh !important;
+    height: 2600px;
     /* or any other unit you find suitable */
   }
 }
 
-@media only screen and (max-width: 430px) {
+
+
+@media only screen and (min-width: 390px) {
   .mobile_banner {
-    max-height: 320vh;
+    height: 2800px ;
     /* or any other unit you find suitable */
   }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (min-width: 410px) {
   .mobile_banner {
-    max-height: 370vh;
+    height: 3000px;
+    /* or any other unit you find suitable */
+  }
+}
+
+@media only screen and (min-width: 430px) {
+  .mobile_banner {
+    height: 3000px;
+    /* or any other unit you find suitable */
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .mobile_banner {
+    height: 3200px;
     /* or any other unit you find suitable */
   }
 }
