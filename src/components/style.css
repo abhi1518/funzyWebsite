@@ -75,7 +75,11 @@
 }
 
 .mobile_banner {
-  max-height: 390vh;
+  /* background-image: url(${mobileBanner}); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 390vh !important;
 }
 
 
@@ -91,12 +95,21 @@
 
 @media only screen and (max-width: 375px) {
   .mobile_banner {
-    max-height: 390vh !important; /* or any other unit you find suitable */
+    max-height: 390vh !important;
+    /* or any other unit you find suitable */
   }
 }
 
 @media only screen and (max-width: 430px) {
   .mobile_banner {
-    max-height: 320vh; /* or any other unit you find suitable */
+    max-height: 320vh;
+    /* or any other unit you find suitable */
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .mobile_banner {
+    max-height: 390vh;
+    /* or any other unit you find suitable */
   }
 }

@@ -237,10 +237,6 @@ function HomePage() {
                 <div className='img-fluid mobile_banner'
                     style={{
                         backgroundImage: `url(${mobileBanner})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        backgroundRepeat: 'no-repeat',
-                        height: "390vh"
                         // width: '100vh',
                     }}
                 >
