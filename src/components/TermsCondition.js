@@ -41,13 +41,13 @@ function TermsCondition() {
                         <p className='pt-4' style={{ fontSize: "16px", fontWeight: "600" }}>TERMS AND CONDITIONS</p>
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>1. Funzy11</p>
                         <p style={{ fontSize: "14px" }}>We may change, add or remove portions of these Terms & Conditions at any time, and if we do so, we will post such changes on Funzy11 Platform or post notifications in your account and the changes will become immediately effective, and your continued use of Funzy11 Platform will indicate your acceptance of these Terms & Conditions as it is then in effect. Accordingly, you should visit Funzy11 Platform from time to time to review the then-current and effective terms and conditions because they are legally binding on you.</p>
-                        <p style={{ fontSize: "14px" }}>Funzy11 is the flagship brand of Sporta Technologies Private Limited (“Funzy11" or “we” or “us”, or “Company”, or “our”). Through the Funzy11 app offered on the PhonePe platform’s Switch section (“Funzy11 Switch App””), Funzy11 offers cricket based, online fantasy games.</p>
+                        <p style={{ fontSize: "14px" }}>Funzy11 is the Cybersonic Technologies Private Limited (“Funzy11" or “we” or “us”, or “Company”, or “our”). Through the Funzy11 app offered on the PhonePe platform’s Switch section (“Funzy11 Switch App””), Funzy11 offers cricket based, online fantasy games.</p>
                         <hr className='horizantal_line_terms_condition mb-4' />
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>2. Eligibility</p>
                         <p style={{ fontSize: "14px" }}>2.1 A User may use the Funzy11 Platform if it is a natural person currently residing in India</p>
                         <p style={{ fontSize: "14px" }}>2.2 Any User who is “incompetent to contract” within the meaning of the Indian Contract Act, 1872 including minors, un-discharged insolvents etc. is not eligible to access the Funzy11 Platform and use the Services.</p>
                         <p style={{ fontSize: "14px" }}>2.3 The Funzy11 Platform should not be used, installed, or played by any person under the age of 18 (eighteen) years.</p>
-                        <p style={{ fontSize: "14px" }}>2.4 Services on the Crickpe Platform are open only to Users currently residing in India. Users residing in the state of Assam, Odisha, Nagaland, Sikkim, Andhra Pradesh, and Telangana (“Restricted States”) are prohibited from participating in any Contests on the Funzy11 Platform.</p>
+                        <p style={{ fontSize: "14px" }}>2.4 Services on the Funzy11 Platform are open only to Users currently residing in India. Users residing in the state of Assam, Odisha, Nagaland, Sikkim, Andhra Pradesh, and Telangana (“Restricted States”) are prohibited from participating in any Contests on the Funzy11 Platform.</p>
                         <hr className='horizantal_line_terms_condition mb-4' />
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>3. Usage of Funzy11</p>
                         <ul>
@@ -266,11 +266,11 @@ function TermsCondition() {
                         </ul>
                         <hr className='horizantal_line_terms_condition mb-4' />
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>16. Grievance Redressal Mechanism</p>
-                        <p style={{ fontSize: "14px" }}>In case you have any complaints or grievance pertaining to (i) any User Content that you believe violates these Terms & Conditions (ii) your access to the Crickpe Platform or (iii) any User Content which you believe is, prima facie, in the nature of any material which is obscene, defamatory towards the complainant or any person on whose behalf you are making the complaint, or is in the nature of impersonation in an electronic form, including artificially morphed images of such individual, please share the same with us by writing to: techcybersonic@gmail.com</p>
+                        <p style={{ fontSize: "14px" }}>In case you have any complaints or grievance pertaining to (i) any User Content that you believe violates these Terms & Conditions (ii) your access to the Funzy11 Platform or (iii) any User Content which you believe is, prima facie, in the nature of any material which is obscene, defamatory towards the complainant or any person on whose behalf you are making the complaint, or is in the nature of impersonation in an electronic form, including artificially morphed images of such individual, please share the same with us by writing to: techcybersonic@gmail.com</p>
                         <p style={{ fontSize: "14px" }}>The name and title of the Grievance Redressal Officer is as follows:</p>
-                        <p style={{ fontSize: "14px" }}>Name: Akmal</p>
+                        <p style={{ fontSize: "14px" }}>Name: Akmal Yazdani</p>
                         <p style={{ fontSize: "14px" }}>Email: techcybersonic@gmail.com</p>
-                        <p style={{ fontSize: "14px" }}>Address: Outer Ring Rd,Banaswadi, Bangalore, India</p>
+                        <p style={{ fontSize: "14px" }}>Address: Outer Ring Rd,Banaswadi, Bangalore, India,PinCode -:560043</p>
                         <p style={{ fontSize: "14px" }}>The Grievance Officer identified above pursuant to the provisions of applicable laws including but not limited to the Information Technology Act, 2000 and the Consumer Protection Act, 2019, and the Rules enacted under those laws. Funzy11 reserves the right to replace the Grievance Redressal Officer at its discretion through publication of the name and title of such replacement on the website, which replacement shall come into effect immediately upon publication. </p>
                     </div>
 
@@ -327,13 +327,13 @@ function TermsCondition() {
                         <p className='pt-4' style={{ fontSize: "16px", fontWeight: "600" }}>TERMS AND CONDITIONS</p>
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>1. Funzy11</p>
                         <p style={{ fontSize: "14px" }}>We may change, add or remove portions of these Terms & Conditions at any time, and if we do so, we will post such changes on Funzy11 Platform or post notifications in your account and the changes will become immediately effective, and your continued use of Funzy11 Platform will indicate your acceptance of these Terms & Conditions as it is then in effect. Accordingly, you should visit Funzy11 Platform from time to time to review the then-current and effective terms and conditions because they are legally binding on you.</p>
-                        <p style={{ fontSize: "14px" }}>Funzy11 is the flagship brand of Sporta Technologies Private Limited (“Funzy11" or “we” or “us”, or “Company”, or “our”). Through the Funzy11 app offered on the PhonePe platform’s Switch section (“Funzy11 Switch App””), Funzy11 offers cricket based, online fantasy games.</p>
+                        <p style={{ fontSize: "14px" }}>Funzy11 is the Cybersonic Technologies Private Limited (“Funzy11" or “we” or “us”, or “Company”, or “our”). Through the Funzy11 app offered on the PhonePe platform’s Switch section (“Funzy11 Switch App””), Funzy11 offers cricket based, online fantasy games.</p>
                         <hr className='horizantal_line_terms_condition mb-4' />
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>2. Eligibility</p>
                         <p style={{ fontSize: "14px" }}>2.1 A User may use the Funzy11 Platform if it is a natural person currently residing in India</p>
                         <p style={{ fontSize: "14px" }}>2.2 Any User who is “incompetent to contract” within the meaning of the Indian Contract Act, 1872 including minors, un-discharged insolvents etc. is not eligible to access the Funzy11 Platform and use the Services.</p>
                         <p style={{ fontSize: "14px" }}>2.3 The Funzy11 Platform should not be used, installed, or played by any person under the age of 18 (eighteen) years.</p>
-                        <p style={{ fontSize: "14px" }}>2.4 Services on the Crickpe Platform are open only to Users currently residing in India. Users residing in the state of Assam, Odisha, Nagaland, Sikkim, Andhra Pradesh, and Telangana (“Restricted States”) are prohibited from participating in any Contests on the Funzy11 Platform.</p>
+                        <p style={{ fontSize: "14px" }}>2.4 Services on the Funzy11 Platform are open only to Users currently residing in India. Users residing in the state of Assam, Odisha, Nagaland, Sikkim, Andhra Pradesh, and Telangana (“Restricted States”) are prohibited from participating in any Contests on the Funzy11 Platform.</p>
                         <hr className='horizantal_line_terms_condition mb-4' />
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>3. Usage of Funzy11</p>
                         <ul>
@@ -552,11 +552,11 @@ function TermsCondition() {
                         </ul>
                         <hr className='horizantal_line_terms_condition mb-4' />
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>16. Grievance Redressal Mechanism</p>
-                        <p style={{ fontSize: "14px" }}>In case you have any complaints or grievance pertaining to (i) any User Content that you believe violates these Terms & Conditions (ii) your access to the Crickpe Platform or (iii) any User Content which you believe is, prima facie, in the nature of any material which is obscene, defamatory towards the complainant or any person on whose behalf you are making the complaint, or is in the nature of impersonation in an electronic form, including artificially morphed images of such individual, please share the same with us by writing to: techcybersonic@gmail.com</p>
+                        <p style={{ fontSize: "14px" }}>In case you have any complaints or grievance pertaining to (i) any User Content that you believe violates these Terms & Conditions (ii) your access to the Funzy11 Platform or (iii) any User Content which you believe is, prima facie, in the nature of any material which is obscene, defamatory towards the complainant or any person on whose behalf you are making the complaint, or is in the nature of impersonation in an electronic form, including artificially morphed images of such individual, please share the same with us by writing to: techcybersonic@gmail.com</p>
                         <p style={{ fontSize: "14px" }}>The name and title of the Grievance Redressal Officer is as follows:</p>
                         <p style={{ fontSize: "14px" }}>Name: Akmal</p>
                         <p style={{ fontSize: "14px" }}>Email: techcybersonic@gmail.com</p>
-                        <p style={{ fontSize: "14px" }}>Address: Outer Ring Rd,Banaswadi, Bangalore, India</p>
+                        <p style={{ fontSize: "14px" }}>Address: Outer Ring Rd,Banaswadi, Bangalore, India,PinCode -:560043</p>
                         <p style={{ fontSize: "14px" }}>The Grievance Officer identified above pursuant to the provisions of applicable laws including but not limited to the Information Technology Act, 2000 and the Consumer Protection Act, 2019, and the Rules enacted under those laws. Funzy11 reserves the right to replace the Grievance Redressal Officer at its discretion through publication of the name and title of such replacement on the website, which replacement shall come into effect immediately upon publication. </p>
                     </div>
                 </div>

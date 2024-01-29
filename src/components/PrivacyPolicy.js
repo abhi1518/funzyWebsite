@@ -74,10 +74,10 @@ function PrivacyPolicy() {
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>12.Applicable Law and Jurisdiction</p>
                         <p style={{ fontSize: "14px" }}>By visiting this Portal, you agree that the laws of the Republic of India without regard to its conflict of laws principles, govern this Privacy Policy and any dispute arising in respect hereof shall be subject to and governed by the dispute resolution process set out in the Terms and Conditions</p>
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>13.Contact Us</p>
-                        <p style={{ fontSize: "14px" }}>Any questions or clarifications with respect to this Privacy Policy or any complaints, comments, concerns or feedback can be sent to Funzy11 at www.Funzy11.com by normal/physical mail addressed to:</p>
+                        <p style={{ fontSize: "14px" }}>Any questions or clarifications with respect to this Privacy Policy or any complaints, comments, concerns or feedback can be sent to Funzy11 at funzzy@gmail.com by normal/physical mail addressed to:</p>
                         <p style={{ fontSize: "14px" }}>Attn: Funzy11 Team</p>
                         <p style={{ fontSize: "14px" }}>CyberSonic Technology Private Limited,</p>
-                        <p style={{ fontSize: "14px" }}>Outer Ring Rd, Banaswadi,Bengalore</p>
+                        <p style={{ fontSize: "14px" }}>Outer Ring Rd, Banaswadi,Bengalore 560043</p>
                         <p style={{ fontSize: "14px" }}>India.</p>
                     </div>
 
@@ -167,10 +167,10 @@ function PrivacyPolicy() {
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>12.Applicable Law and Jurisdiction</p>
                         <p style={{ fontSize: "14px" }}>By visiting this Portal, you agree that the laws of the Republic of India without regard to its conflict of laws principles, govern this Privacy Policy and any dispute arising in respect hereof shall be subject to and governed by the dispute resolution process set out in the Terms and Conditions</p>
                         <p style={{ fontSize: "14px", fontWeight: "600" }}>13.Contact Us</p>
-                        <p style={{ fontSize: "14px" }}>Any questions or clarifications with respect to this Privacy Policy or any complaints, comments, concerns or feedback can be sent to Funzy11 at www.Funzy11.com by normal/physical mail addressed to:</p>
+                        <p style={{ fontSize: "14px" }}>Any questions or clarifications with respect to this Privacy Policy or any complaints, comments, concerns or feedback can be sent to Funzy11 at funzzy@gmail.com by normal/physical mail addressed to:</p>
                         <p style={{ fontSize: "14px" }}>Attn: Funzy11 Team</p>
                         <p style={{ fontSize: "14px" }}>CyberSonic Technology Private Limited,</p>
-                        <p style={{ fontSize: "14px" }}>Outer Ring Rd, Banaswadi,Bengalore</p>
+                        <p style={{ fontSize: "14px" }}>Outer Ring Rd, Banaswadi,Bengalore 560043</p>
                         <p style={{ fontSize: "14px" }}>India.</p>
                     </div>
 
