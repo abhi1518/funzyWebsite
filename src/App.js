@@ -1,6 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsCondition from "./components/TermsCondition";
 
 function App() {
   return (
@@ -8,9 +10,9 @@ function App() {
       <Routes>
        
           <Route index element={<HomePage />} />
-          {/* <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
+           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+           <Route path="/termsandconditions" element={<TermsCondition />} />
+          {/*<Route path="*" element={<NoPage />} /> */} 
         
       </Routes>
     </BrowserRouter>

@@ -41,6 +41,10 @@
   margin: 0px 0px !important;
 }
 
+.horizantal_line_terms_condition{
+  border: 1px solid black !important;
+  margin: 0px 0px !important;
+}
 
 .card-header .title {
   font-size: 17px;

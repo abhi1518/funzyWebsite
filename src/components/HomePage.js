@@ -32,12 +32,10 @@ function HomePage() {
                     }}
                 >
                     <nav className="navbar navbar-expand-lg navbar-light bg-black mx-5" style={{ backgroundColor: "black", height: "80px" }}>
-                        <img src={Logo} alt="Description of the image" style={{ height: "70%" }} />
-                        {/* <a class="navbar-brand text-white" href="#">Navbar</a> */}
+                        <Link to="/"><img src={Logo} alt="Description of the image" style={{ height: "50px" }} /></Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mx-auto">
                                 <li className="nav-item active px-5">
@@ -81,7 +79,6 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                    {/* Your content goes here */}
                 </div>
                 <div className='img-fluid'
                     style={{
@@ -196,7 +193,7 @@ function HomePage() {
                     <div className='container'>
                         <div className='row pt-5'>
                             <div className='col-3'>
-                                <img src={Logo} alt="Description of the image" style={{ height: "2%" }} />
+                                <Link to="/"><img src={Logo} alt="Description of the image" style={{ height: "2%" }} /></Link>
                                 <p className='text-white' style={{ fontSize: "12px" }}>Fantasy gaming experience to all.</p>
                             </div>
                             <div className='col-6'>
@@ -213,7 +210,7 @@ function HomePage() {
                                     <Link to="https://twitter.com/funzy1111"><img className='text-white pl-5' src={twiter} alt="Description of the image" style={{ height: "30px" }} /></Link>
                                 </div>
                             </div>
-                            <div className='col-3'>
+                            <div className='col-3' style={{height:"50px"}}>
                                 <p className='text-white' style={{ fontSize: "12px" }}>+91 9740812670</p>
                                 <p className='text-white' style={{ fontSize: "12px" }}>funzzy11@gmail.com</p>
                             </div>
@@ -226,9 +223,9 @@ function HomePage() {
                         <div>
                             <p className='text-white  mt-3' style={{ fontSize: "12px" }}>© 2024 Funzy11. All right reserved.</p>
                         </div>
-                        <div style={{ display: "flex" }}>
-                            <p className='text-white mt-3' style={{ fontSize: "12px" }}>Privacy Policy   </p>
-                            <p className='text-white mt-3 pl-5' style={{ fontSize: "12px" }}>    terms and conditions</p>
+                        <div style={{ display: "block" }}>
+                            <Link to="/privacypolicy" style={{ fontSize: "12px" }} className='text-white mt-3 mx-4'>Privacy Policy</Link>
+                            <Link to="/termsandconditions" style={{ fontSize: "12px" }} className='text-white mt-3'>Terms and Conditions</Link>
                         </div>
                     </div>
                 </div>
@@ -343,14 +340,13 @@ function HomePage() {
                     </div>
                 </div>
                 <div style={{ backgroundColor: "black", justifyContent: "center", textAlign: "center" }}>
-                    <img src={Logo} alt="Description of the image" className='mt-4' style={{ height: "60px" }} />
+                    <Link to="/"><img src={Logo} alt="Description of the image" className='mt-4' style={{ height: "60px" }} /></Link>
                     <p style={{ fontSize: "12px", color: "white" }} className='mt-2'>Fantasy gaming experience to all.</p>
                     <div className='mt-4' style={{ display: "flex", justifyContent: "space-between", margin: "0px 15%" }}>
                         <Link to="https://www.facebook.com/profile.php?id=61555697623765"><img src={facebook} alt="Description of the image" style={{ height: "30px" }} /></Link>
                         <Link to="https://t.me/funzy11"><img src={teligram} alt="Description of the image" style={{ height: "30px" }} /></Link>
                         <Link to="https://www.instagram.com/funzzy11/"><img src={instagram} alt="Description of the image" style={{ height: "30px" }} /></Link>
                         <Link to="https://twitter.com/funzy1111"><img src={twiter} alt="Description of the image" style={{ height: "30px" }} /></Link>
-
                     </div>
                 </div>
                 <div className='pt-4' style={{ backgroundColor: "black", textAlign: "center" }}>
@@ -362,8 +358,8 @@ function HomePage() {
                     <p className='text-white  mt-3' style={{ fontSize: "12px" }}>© 2024 Funzy11. All right reserved.</p>
                     <hr className='horizantal_line_mobile mb-4' />
                     <div style={{ display: "flex", justifyContent: "space-between", margin: "0px 8%" }}>
-                        <p className='text-white mt-3' style={{ fontSize: "12px" }}>Privacy Policy</p>
-                        <p className='text-white mt-3' style={{ fontSize: "12px" }}>terms and conditions</p>
+                        <Link to="/privacypolicy"><p className='text-white mt-3' style={{ fontSize: "12px" }}>Privacy Policy</p></Link>
+                        <Link to="/termsandconditions"><p className='text-white mt-3' style={{ fontSize: "12px" }}>terms and conditions</p></Link>
                     </div>
                 </div>
             </div>
